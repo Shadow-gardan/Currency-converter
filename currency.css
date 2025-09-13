@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg,rgb(255, 218, 8), rgb(0, 0, 0),rgb(255, 218, 8));
+}
+
+.container {
+  background-image: url("download.jpg");
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  height: auto;
+  max-width: 20rem;
+  width: 17rem;
+  color: #ffffff;
+}
+
+.container h2{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  font-style: initial;
+}
+
+form {
+  margin: 2rem 0 1rem 0;
+}
+
+.amount input{
+  border: 2px dotted #ffffff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 0.75rem;
+  width: 95%;
+  height: 3rem;
+  padding-left: 0.5rem;
+  color: #000;
+}
+
+
+form select{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.select-container img {
+  max-width: 2rem;
+}
+
+.from,.to p{
+  font-size: 1.4rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: inherit;
+  font-weight: 400;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: auto;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.select-container select {
+  font-size: 1rem;
+  width: auto;
+}
+
+.msg {
+  margin: 1.5rem 0 1.5rem 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+
+}
+
+form button{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+  height: 3rem;
+  background-color: #af4d98;
+  color: #fff;
+  font-size: 1.15rem;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px #000;
+  transition: 0.3s ease-in-out;
+}
+
+form button:hover{
+  transform: scale(0.95);
+  box-shadow:  6px 6px 6px #7300bb;
+}
